@@ -1,5 +1,20 @@
+// let count = 0;
+
+// while (count < 10) {
+//   console.log(count);
+//   ++count;
+// }
+
+/*
+  return if count hits 10 (is greater than 9)
+  log the count
+  call fn, pass it incremented count value
+*/
+
 function recursiveCount(num = 0) {
-  // type your code here
+  if (num === 10) return 
+  console.log(num)
+  recursiveCount(num += 1)
 }
 
 if (require.main === module) {
